@@ -1,0 +1,26 @@
+The app language is 100% Kotlin
+
+How to use it?
+
+First, when the app starts, it is going to ask you for your location permission.
+If the permission is guarenteed you are going to get the current weather informations in your „For You“ screen.
+You can add a pin on the map by long clicking.
+When you click on a pin that you added before you will see the current weather and the city name.
+You can search for a city and it will automatically add it to your „Favorites“ Therefore the city must exit in the citylist.json file.
+By longclicking you can delete the City and by onlclicking you can open the detailpage in your favorites.
+On the map we didn‘t implement the option to delete a marker because it isn‘t user friendly.
+At night the view of the detailpage changes automatically.
+To refresh the „For You“ page you can swipe upside down to load the new data if this is avabilable.
+The app supports also an offline mode which means you can see your cities in the favorites without internet.
+To edit a favorite you have to delete the city and add a new one.
+In the „Settings“ section you can only enable darkmode. Switiching metrics isn’t implemented yet.
+
+After giving your permission for your location please refresh the „For You“ screen to get the weather for your current location.
+When you press the „Floating“ button the icon on the button nav. bar will not change to the Mapview icon, i don’t know why, I guess it is a bug in the Emulator.
+When the exection "grpc failed" throughs, please wipe the data from the Emulator.
+
+When the App starts the very first time, the „For You“ page doesn’t show you added pins. Please restart the app here then it should work.
+There are a few codeblocks which aren’t deleted. Those ones we don’t use yet but we want to expand the project in near future.
+The app supports german and english.
+For this app we used Google Pixel 2.
+file:///Users/of/Desktop/oswald.png

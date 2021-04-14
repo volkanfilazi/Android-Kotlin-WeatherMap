@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/forYouFragment"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/title_favoriten" />
+
+    <item
+        android:id="@+id/mapViewFragment"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/title_kartenansicht" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/title_einstellungen" />
+
+</menu>

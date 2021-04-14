@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BrightTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_500</item>
+        <item name="backgroundColor">@color/backgroundcolor</item>
+        <item name="cardBackgroundColor">@color/cardbackgroundcolor</item>
+        <item name="android:textColor">@color/textcolor</item>
+
+    </style>
+
+    <style name="DarkTheme" parent="BrightTheme">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="backgroundColor">@color/black</item>
+        <item name="cardBackgroundColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+</resources>

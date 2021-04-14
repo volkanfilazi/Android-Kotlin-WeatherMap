@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Dark_Theme">
+        <attr name="backgroundColor" format="color" />
+        <attr name="cardBackgroundColor" format="color" />
+        <attr name="android:textColor" format="color" />
+        <attr name="android:tint" format="color" />
+        <attr name="android:button" format="color" />
+    </declare-styleable>
+</resources>
